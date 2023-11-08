@@ -15,9 +15,10 @@ int main(){
 	
 	int* resultado = cambio_vector(N_monedas,p,cantidad);
 	
-	
+		std::cout << "El minimo es"<< std::endl;
 	for(int x = 0; x< N_monedas; x++){
-		std::cout <<"El minimo es : "<< resultado[x] << std::endl;
+		std::cout << resultado[x];
 	}
+		std::cout << std::endl;
 	return 0;
 }
